@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tech Taiks by RJ</title>
+    <link rel="icon" href=" /img/logo.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-secondary">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--main body-->
+
+    <section id="navigation ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning nav1">
+        <img
+          src="http://pngimg.com/uploads/youtube/youtube_PNG21.png"
+          class="youlogo"
+        />
+        <a class="textcolo" href="#" id="tech-head"><b>Tech Talks by RJ</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <button id="sub-page" class="nav-item bg-warning nav-link">
+              <a class="nav-item nav-link" href=" /index.html">HOME </a>
+            </button>
+            <button
+              onclick="myFunction()"
+              id="sub-page"
+              class="nav-item bg-warning nav-link"
+              href=" /subscribe.html"
+            >
+              <a class="nav-item nav-link" href=" /subscribe.html">SUBSCRIBE</a>
+            </button>
+            <button id="sub-page" class="nav-item bg-warning nav-link">
+              <a class="nav-item nav-link" href=" /videos.html">VIDEOS</a>
+            </button>
+            <button id="sub-page" class="nav-item bg-warning nav-link">
+              <a class="nav-item nav-link" href=" /insta.html"
+                >INSTAGRAM LINK</a
+              >
+            </button>
+            <button id="sub-page" class="nav-item bg-warning nav-link">
+              <a class="nav-item nav-link" href=" /about.html">ABOUT</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--main section-->
+
+    <p class="text-center text-white container">
+      Hi, I'm Rahul Raj and I make tech videos on Tech Talks by RJ youtube
+      channel. At Tech Talks by RJ we aim to provide quality reviews and content
+      in the field of technology to help you make an informed decision when
+      purchasing products and services. For business enquiries, please contact
+      on rhul.m.rj@gmail.com
+      <br />
+      <br />
+
+      <img id="zoom-hov" src=" /img/logo.png" />
+    </p>
+
+    <div class="container text-center">
+      <h5 id="zoom-hov-link">
+        <a class="link-col" href="https://www.instagram.com/mr.trojan_/"
+          >Follow insta</a
+        >
+      </h5>
+      <br />
+      <h5 id="zoom-hov-link">
+        <a class="link-col" href="https: techtalksbyrj@gmail.com">email</a>
+      </h5>
+      <br />
+      <h5 id="zoom-hov-link">
+        <a class="link-col" href=" https://www.facebook.com/profile.php?.."
+          >facebook</a
+        >
+      </h5>
+      <br />
+      <h5 class="link-col" id="zoom-hov-link">mob: 7907142807</h5>
+      <br />
+
+      <br />
+    </div>
+
+    <script>
+      $("#tech-head").mouseenter(function () {
+        $(this).css({ color: "red" });
+      });
+      $("#tech-head").mouseleave(function () {
+        $(this).css({ color: "white" });
+      });
+      function myFunction() {
+        window.open(
+          "https://www.youtube.com/c/TechTalksbyRJVlog",
+          "_blank",
+          "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"
+        );
+      }
+
+      //trail
+    </script>
+  </body>
+</html>
